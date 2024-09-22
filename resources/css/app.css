@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: light-dark(#000000, #efefec);
+    background-color: light-dark(#efedea, #000000);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: light-dark(#252525, #646363);
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: light-dark(#ffffff, #000000);
+    border-radius: 10px;
+  }
