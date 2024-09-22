@@ -5,7 +5,7 @@
 
     <div class="welcome-content">
         {{ __("You're logged in!") }}
-
+        <h1>hola</h1>
     </div>
 </x-app-layout>
 
